@@ -1,0 +1,33 @@
+.card {
+  background-color: rgb(53, 53, 53);
+  width: 300px;
+  padding: 16px 32px;
+  border-radius: 16px;
+}
+
+.card div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card div h1 {
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
+
+.card div p {
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
+
+.card-overflow-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card hr{
+  border: 0;
+  border-top: 2px solid #747474;
+}
