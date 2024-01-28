@@ -41,11 +41,10 @@ class App extends Component {
         {
           this.state.users.length !== 0
           && <div className='cards-container'>
-            { this.state.users.map((user) =>{
-              console.log(user);
+            { this.state.users.map((user, index) =>{
               return(
                 <UserCard
-                  key={user.firstName+user.lastName+user.created}
+                  key={user.firstName+user.lastName+user.created+index}
                   firstName={ user.first }
                   lastName={ user.last }
                   email={ user.email }

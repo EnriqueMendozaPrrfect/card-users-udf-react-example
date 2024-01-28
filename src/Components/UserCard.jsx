@@ -26,7 +26,7 @@ class UserCard extends Component {
       emal: 'Correo',
       address: 'Direción',
       balance: 'Valor de cuenta',
-      registrationDate: 'Fecha de registro'
+      registrationDate: 'Registro'
     };
 
     return(
